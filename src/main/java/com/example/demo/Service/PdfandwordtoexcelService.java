@@ -333,6 +333,7 @@ public class PdfandwordtoexcelService {
 		}
 	}
 	
+	// This Method Used For Extract The Candidate Name
 	 public String exctractCandidateName(String email) {
 	        int atIndex = email.indexOf('@'); // Find the index of '@' symbol
 	        if (atIndex != -1) {
